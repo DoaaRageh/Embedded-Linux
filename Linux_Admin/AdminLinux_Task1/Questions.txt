@@ -1,0 +1,36 @@
+1- Ubuntu - Kali - Red Hat
+2- it is used to provide short reference manuals for individual commands, API functions,
+   concepts, configuration file syntax, and file formats.
+3- rm: Remove files or directories, By default, it does not remove directories but we can 
+   use the --recursive (-r or -R) option to remove each listed directory, too, along with 
+   all of its contents.
+   rmdir: Remove only empty directories.
+4- cd ~
+   mkdir dir1 docs
+   cd dir1
+   mkdir dir11 dir12
+   cd dir11
+   touch file1
+   cd ~/docs
+   touch mycv
+   cd ../Documents
+   touch OldFiles
+   (a) cd ../dir1 
+       rmdir dir11 -> The directory wasn't removed because it is not empty.
+       rm -r dir11 -> I used rm with -r option insted of mkdir to overcome that.
+   (b) rmdir -p Documents/OldFiles -> it told me failed to remove 'Documents/OldFiles': Not a directory
+   (c) Absolute Path: "/home/doaa/docs/mycv"
+       Relative Path: "docs/mycv"
+5- cp /etc/passwd ~/mypasswd
+6- mv mypasswd oldpasswd
+7- (1) cd
+   (2) cd ~
+   (3) cd home/doaa
+   (4) cd ../../home/doaa
+8- ls /usr/bin/w*
+9- it display information about command type (internal, external, alias).
+10- find /usr/bin/ -maxdepth 1 -name 'c*' -type f | head -n 2
+11- man -k read file
+12- it is used to search the manual page names and descriptions.
+
+
