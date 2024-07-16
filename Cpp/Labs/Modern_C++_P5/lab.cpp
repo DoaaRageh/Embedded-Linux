@@ -48,11 +48,11 @@ int main()
     int max = *std::max_element(numbers.begin(), numbers.end());
 
     output << std::fixed << std::setprecision(2);
-    output << std::setw(50) << std::setfill('-') << "" << std::endl;
-    output << "|" << std::setw(6) << std::setfill(' ') << "Sum" << std::setw(6) << std::setfill(' ') << "|" << std::setw(6) << std::setfill(' ') << "Avg" << std::setw(6) << std::setfill(' ') << "|" << std::setw(6) << std::setfill(' ') << "Min" << std::setw(6) << std::setfill(' ') << "|" << std::setw(6) << std::setfill(' ') << "Max" << std::setw(6) << std::setfill(' ') << "|" << std::endl;
-    output << std::setw(50) << std::setfill('-') << "" << std::endl;
-    output << "|" << std::setw(6) << std::setfill(' ') << sum << std::setw(6) << std::setfill(' ') << "|" << std::setw(8) << std::setfill(' ') << avg << std::setw(4) << std::setfill(' ') << "|" << std::setw(6) << std::setfill(' ') << min << std::setw(6) << std::setfill(' ') << "|" << std::setw(6) << std::setfill(' ') << max << std::setw(6) << std::setfill(' ') << "|" << std::endl;
-    output << std::setw(50) << std::setfill('-') << "" << std::endl;
+    output << std::setw(49) << std::setfill('-') << "" << std::endl;
+    output << "|" << std::setw(7) << std::setfill(' ') << "Sum" << std::setw(5) << std::setfill(' ') << "|" << std::setw(7) << std::setfill(' ') << "Avg" << std::setw(5) << std::setfill(' ') << "|" << std::setw(7) << std::setfill(' ') << "Min" << std::setw(5) << std::setfill(' ') << "|" << std::setw(7) << std::setfill(' ') << "Max" << std::setw(5) << std::setfill(' ') << "|" << std::endl;
+    output << std::setw(49) << std::setfill('-') << "" << std::endl;
+    output << "|" << std::setw(7) << std::setfill(' ') << sum << std::setw(5) << std::setfill(' ') << "|" << std::setw(8) << std::setfill(' ') << avg << std::setw(4) << std::setfill(' ') << "|" << std::setw(6) << std::setfill(' ') << min << std::setw(6) << std::setfill(' ') << "|" << std::setw(7) << std::setfill(' ') << max << std::setw(5) << std::setfill(' ') << "|" << std::endl;
+    output << std::setw(49) << std::setfill('-') << "" << std::endl;
 
     output.close();
 
