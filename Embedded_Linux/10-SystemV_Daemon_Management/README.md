@@ -1,5 +1,3 @@
-# Embedded-Linux
-
 # System-V Daemon Management
 Set up System-V initialization scripts to manage two custom daemons, **hello** and **hi**, at different runlevels.
 
