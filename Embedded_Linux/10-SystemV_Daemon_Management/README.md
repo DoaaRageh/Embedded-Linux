@@ -8,7 +8,7 @@ Set up System-V initialization scripts to manage two custom daemons, **hello** a
 - Write an **rc** script for transitions and update the **inittab** file.
 
 ## Create Scripts
-Navigate to the `/usr/bin` directory and create two script files, **hello** and **hi**
+Navigate to the **/usr/bin** directory and create two script files, **hello** and **hi**
 ```
 cd /usr/bin
 touch hello hi
